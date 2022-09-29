@@ -21,7 +21,7 @@ if(entries[0].isIntersecting){
 {
     threshold:1
 })
-observer.observe(slider)
+//observer.observe(slider)
 
 const sliderm = document.getElementById("carouselMobileIndicators");
 const observerm = new IntersectionObserver(entries => {
@@ -38,4 +38,4 @@ if(entries[0].isIntersecting){
     threshold:0.5,
     root:null
 })
-observerm.observe(slider)
+//observerm.observe(slider)

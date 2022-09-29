@@ -7,10 +7,10 @@
     <title>Rajavel Balasubramanian</title>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,500i,600,700&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;display=swap">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;display=swap">  
 </head>
 <body class="body_bg vh-100">
-    <div class="d-none chat-box p-4">
+    <div class="chat-box p-4">
         <div class="close-c mb-1" onClick="toggleChat()"></div>
         <div class="text-center mb-3">
             <p class="text-white-50 p-bot mb-1">Not sure where to start?</p>

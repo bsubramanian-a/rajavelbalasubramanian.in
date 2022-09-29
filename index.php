@@ -33,7 +33,7 @@
                         <div class="col col-12 col-md-3 col-lg-5 col-xl-4"><button class="btn btn-primary btn_view" type="button">View Here</button></div>
                         <div class="col col-12 col-md-9 col-lg-7 col-xl-8"><button class="btn btn-primary btn_view" type="button">View Github Repo</button></div>
                     </div>
-                    <div class="d-sm-flex gap-4 d-none"><button class="btn btn-primary btn_view" type="button">View Here</button><button class="btn btn-primary btn_view" type="button">View Github Repo</button></div>
+                    <div class="d-sm-flex gap-4 d-none"><button class="btn bs-color btn_view" type="button">kjkk View Here</button><button class="btn btn-primary btn_view" type="button">View Github Repo</button></div>
                 </div>
                 <div class="col col-12 col-lg-6 ps-lg-2 d-flex justify-content-end order-1 order-lg-2 mb-4 mb-lg-0"><img class="pro-img img-fluid w-100" src="<?php echo get_template_directory_uri(); ?>/assets/img/work-img/project-2.png"></div>
             </div>
@@ -194,14 +194,14 @@
                             </div>    
                           </div>
                         </div>
-                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                           <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="visually-hidden">Next</span>
-                        </button> -->
+                        </button>
                     </div>
                     <div id="carouselMobileIndicators" class="carousel slide d-block d-lg-none" data-bs-interval="false">
                         <div class="carousel-indicators">
@@ -267,14 +267,14 @@
                             </div>                         
                           </div>
                         </div>
-                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                           <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="visually-hidden">Next</span>
-                        </button> -->
+                        </button>
                     </div>
                 </div>
             </div>
@@ -284,7 +284,7 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col col-12">
-                    <h1 class="text-center text-white p_h mb-4">Rajavel Balasubramaian</h1>
+                    <h1 class="text-center text-white p_h mb-4">Rajavel Balasubramanian</h1>
                     <div>
                         <div class="col d-none d-md-flex gap-xl-5 gap-sm-4 justify-content-center align-items-center">
                             <div class="rounded-circle link-bg d-flex justify-content-center align-items-center">

@@ -5,7 +5,7 @@
 .nav-bg {
   background-color: #1f2632;
   width: 100%;
-  position: fixed;
+  position: fixed !important;
   z-index: 999;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
 }
@@ -18,21 +18,21 @@
 .active_link {
   font-family: 'IBM Plex Sans', sans-serif;
   color: #676cdb !important;
-  font-size: 23px;
-  font-weight: bold;
+  font-size: 23px !important;
+  font-weight: bold !important;
 }
 .inactive_link {
   font-family: 'IBM Plex Sans', sans-serif;
   color: #ffffff80 !important;
-  font-size: 23px;
-  font-weight: 400;
+  font-size: 23px !important;
+  font-weight: 400 !important;
 }
 .btn_hire {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif !important;
   color: #fff !important;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 6px 34px;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  padding: 6px 34px !important;
   background-color: #676cdb;
   box-shadow: none !important;
   border-radius: 6px;
@@ -81,11 +81,11 @@
   color: #676cdb;
 }
 .btn_h-hire {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif !important;
   color: #fff !important;
-  font-size: 21px;
-  font-weight: 600;
-  padding: 10px 36px;
+  font-size: 21px !important;
+  font-weight: 600 !important;
+  padding: 10px 36px !important;
   background-color: #676cdb;
   box-shadow: none !important;
   border-radius: 6px;
@@ -530,10 +530,10 @@
   border: 2px solid #676cdb !important;
   background-color: transparent !important;
   color: #303030;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 10px 40px;
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  padding: 10px 40px !important;
   box-shadow: none !important;
   border-radius: 6px;
 }
@@ -559,12 +559,12 @@
   background-color: #676cdb20;
 }
 .btn_view {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif !important;
   color: #fff !important;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 7px 19px;
-  background-color: #676cdb;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  padding: 7px 19px !important;
+  background-color: #676cdb !important;
   box-shadow: none !important;
   border-radius: 6px;
 }
@@ -616,12 +616,12 @@
   background: url("../img/header-image.png") right / contain no-repeat !important;
 }
 .btn_vap {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif !important;
   color: #fff !important;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 11px 34px;
-  background-color: #676cdb;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  padding: 11px 34px !important;
+  background-color: #676cdb !important;
   box-shadow: none !important;
   border-radius: 6px;
 }
@@ -748,6 +748,7 @@
 }
 .chat-box {
   position: fixed;
+  display: none;
   bottom: 40px;
   right: 80px;
   z-index: 999;
